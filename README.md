@@ -38,6 +38,11 @@ The Rust trading bot interacts with the Node.js API to fetch stock prices and ma
 3. **Run the Bot**: Excecute the following command to start the exceution of trading bot:
    ```bash
     cargo run
+## Trading Logic
+1.   **Buy Condition**: The bot buys stocks when the price drops by 2% from the last purchase price.
+2.   **Sell Condition**: The bot sells stocks when the price rises by 3% from the last purchase price.
+3.   **Profit/Loss Tracking**: The bot tracks the profit or loss from each trade and displays a summary report at the end of the trading session.
+   
 ## Sample Output
    ```bash
    Fetched stock price: ₹105.26
